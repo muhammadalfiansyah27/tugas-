@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    std::cout << "Program Menghitung Luas Persegi Panjang" << std::endl;
+
+    double panjang, lebar;
+    
+    std::cout << "Masukkan panjang: ";
+    std::cin >> panjang;
+
+    std::cout << "Masukkan lebar: ";
+    std::cin >> lebar;
+
+    double luas = panjang * lebar;
+
+    std::cout << "Luas persegi panjang adalah: " << luas << std::endl;
+
+    return 0;
+}

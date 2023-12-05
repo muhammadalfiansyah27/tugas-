@@ -1,0 +1,8 @@
+import Foundation
+
+print("Halo! Selamat datang di program Swift sederhana.")
+print("Siapa namamu? ", terminator: "")
+
+if let nama = readLine() {
+    print("Halo, \(nama)! Semoga harimu menyenangkan.")
+}

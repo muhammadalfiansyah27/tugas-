@@ -1,0 +1,11 @@
+puts "Program Menghitung Luas Persegi Panjang"
+
+print "Masukkan panjang: "
+panjang = gets.chomp.to_f
+
+print "Masukkan lebar: "
+lebar = gets.chomp.to_f
+
+luas = panjang * lebar
+
+puts "Luas persegi panjang adalah: #{luas}"

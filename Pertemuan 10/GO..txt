@@ -1,0 +1,20 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var panjang, lebar float64
+
+	fmt.Println("Program Menghitung Luas Persegi Panjang")
+	fmt.Print("Masukkan panjang: ")
+	fmt.Scanln(&panjang)
+
+	fmt.Print("Masukkan lebar: ")
+	fmt.Scanln(&lebar)
+
+	luas := panjang * lebar
+
+	fmt.Println("Luas persegi panjang adalah:", luas)
+}

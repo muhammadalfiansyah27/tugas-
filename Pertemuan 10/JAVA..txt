@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Greetings {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Halo! Selamat datang di program Java sederhana.");
+        System.out.print("Siapa namamu? ");
+        
+        String nama = scanner.nextLine();
+        
+        System.out.println("Halo, " + nama + "! Semoga harimu menyenangkan.");
+        
+        scanner.close();
+    }
+}

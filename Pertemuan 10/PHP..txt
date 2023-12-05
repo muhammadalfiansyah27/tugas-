@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung Luas Persegi Panjang dengan PHP</title>
+</head>
+<body>
+    <h1>Program Menghitung Luas Persegi Panjang</h1>
+    <?php
+    if(isset($_GET['panjang']) && isset($_GET['lebar'])) {
+        $panjang = $_GET['panjang'];
+        $lebar = $_GET['lebar'];
+
+        $luas = $panjang * $lebar;
+        echo "<p>Luas persegi panjang adalah: $luas</p>";
+    }
+    ?>
+    <form method="get" action="">
+        <label for="panjang">Masukkan panjang:</label><br>
+        <input type="number" id="panjang" name="panjang"><br>
+        <label for="lebar">Masukkan lebar:</label><br>
+        <input type="number" id="lebar" name="lebar"><br>
+        <input type="submit" value="Hitung">
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+-- Membuat tabel pengguna
+CREATE TABLE Users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(50),
+    umur INT,
+    alamat VARCHAR(100)
+);
+
+-- Memasukkan data ke dalam tabel
+INSERT INTO Users (nama, umur, alamat) VALUES
+('Alice', 25, 'Jalan Merdeka No. 10'),
+('Bob', 30, 'Jalan Raya No. 5'),
+('Charlie', 22, 'Jalan Jenderal Sudirman No. 15');
